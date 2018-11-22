@@ -48,5 +48,5 @@ var initializer = function() {
   }
 };
 
-$(initializer);
+// $(initializer);
 $(document).on('turbolinks:load', initializer);
